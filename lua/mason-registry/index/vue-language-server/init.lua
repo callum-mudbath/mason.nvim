@@ -7,5 +7,5 @@ return Pkg.new {
     homepage = "https://github.com/johnsoncodehk/volar",
     languages = { Pkg.Lang.Vue },
     categories = { Pkg.Cat.LSP },
-    install = npm.packages { "@volar/vue-language-server", "typescript", bin = { "vue-language-server" } },
+    install = npm.packages { "vue-language-server-with-kebab", "typescript", bin = { "vue-language-server" } },
 }
