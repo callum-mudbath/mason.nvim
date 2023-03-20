@@ -2,7 +2,7 @@ local Pkg = require "mason-core.package"
 local npm = require "mason-core.managers.npm"
 
 return Pkg.new {
-    name = "vue-language-server",
+    name = "vue-language-server-with-kebab",
     desc = [[⚡ Explore high-performance tooling for Vue]],
     homepage = "https://github.com/johnsoncodehk/volar",
     languages = { Pkg.Lang.Vue },
